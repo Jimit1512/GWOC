@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 function ContactPage() {
     return (
-        <div className=" w-full">
+        <div className=" w-full" id="contact">
             <ContactForm/>
             <Footer/>
         </div>

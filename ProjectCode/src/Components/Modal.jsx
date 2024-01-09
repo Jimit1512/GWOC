@@ -11,7 +11,7 @@ function Modal({onClose, Login, onSignup, userName, profilePicture}) {
         onClick={onClose}
         >
        
-          < X />
+          < X className="text-white" />
         </button>
         <div className="card w-96 bg-black shadow-xl">
           <figure className="px-10 pb-2 pt-8">
